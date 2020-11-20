@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [conexion_chromedriver.Test001]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="conexion_chromedriver.Test001">
+        <methods>
+          <include name="test5"/>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- conexion_chromedriver.Test001 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [conexion_chromedriver.Test001] -->

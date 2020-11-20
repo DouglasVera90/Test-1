@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 147.294 sec <<< FAILURE!
+login(test.Test001)  Time elapsed: 16.188 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at test.Test001.login(Test001.java:27)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 35 more
+
+test2(conexion_chromedriver.Test001)  Time elapsed: 6.424 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at conexion_chromedriver.Test001.test2(Test001.java:69)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 35 more
+
+test4(conexion_chromedriver.Test001)  Time elapsed: 34.871 sec  <<< FAILURE!
+java.lang.AssertionError: expected [$5.290] but found [$10.690]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at conexion_chromedriver.Test001.test4(Test001.java:94)
+

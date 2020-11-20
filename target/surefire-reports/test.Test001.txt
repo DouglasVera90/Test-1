@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: test.Test001
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.617 sec <<< FAILURE!
+before(test.Test001)  Time elapsed: 0.508 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at page_object.Login_zmart.<init>(Login_zmart.java:18)
+	at test.Test001.before(Test001.java:23)
+
