@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28236" started-at="2020-10-09T11:10:42 CLST" finished-at="2020-10-09T11:11:10 CLST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28236" started-at="2020-10-09T11:10:42 CLST" finished-at="2020-10-09T11:11:10 CLST">
+      <class name="test.Test001">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.Test001@34c4973]" name="beforeClass" is-config="true" duration-ms="7" started-at="2020-10-09T11:10:42 CLST" finished-at="2020-10-09T11:10:42 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="before()[pri:0, instance:test.Test001@34c4973]" name="before" is-config="true" duration-ms="11977" started-at="2020-10-09T11:10:42 CLST" finished-at="2020-10-09T11:10:54 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.Test001@34c4973]" name="login" duration-ms="16046" started-at="2020-10-09T11:10:54 CLST" finished-at="2020-10-09T11:11:10 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.Test001@34c4973]" name="after" is-config="true" duration-ms="168" started-at="2020-10-09T11:11:10 CLST" finished-at="2020-10-09T11:11:10 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.Test001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
